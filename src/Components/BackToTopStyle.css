@@ -1,0 +1,43 @@
+.backToTop{
+    position: fixed;
+    bottom: 40px;
+    right: 65px;
+    height: 40px;
+    width: 40px;
+    background-color: #000000;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.backToTop-icon{
+    font-size: 2rem;
+    color: #ffff;
+}   
+
+
+@media screen and (max-width: 787px){
+    .backToTop{
+        bottom: 40px;
+        right: 65px;
+        height: 35px;
+        width: 35px;
+    }
+    .backToTop-icon{
+        font-size: 1.7rem;
+    }   
+}
+
+@media screen and (max-width: 480px){
+    .backToTop{
+        bottom: 20px;
+        right: 30px;
+        height: 35px;
+        width: 35px;
+    }
+    .backToTop-icon{
+        font-size: 1.7rem;
+    }  
+}

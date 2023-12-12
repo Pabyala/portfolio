@@ -1,0 +1,150 @@
+.project{
+    padding: 5rem 0;
+}
+.prject-header-title.fs-2{
+    font-size: 2rem !important;
+    font-weight: 600;
+}
+.prject-header-title.mb-3{
+    margin-bottom: 1rem !important;
+}
+.prject-header-title::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #000000;
+    left: 183px;
+    top: 19px;
+}
+.project-text.fs-6{
+    font-size: 1.1rem !important;
+}
+.col-body{
+    box-shadow: 0 0.1rem 0.3rem 0.2rem rgba(0,0,0,.15);
+    border-radius: 2px;
+}
+.custom-gtc{
+    grid-template-columns: repeat(3, 1fr);
+}
+.project-img{
+    transition: .3s ease-in-out;
+}
+.project-img:hover{
+    transform: scale(1.5);
+}
+.project-title{ 
+    font-weight: 600 !important;
+}
+.project-sub-title{
+    margin-bottom: .2rem !important;
+}
+.project-sub-title.fs-6{
+    font-size: 1.0625rem !important;
+}
+.tech-use{
+    color: #0062ff;
+    font-weight: 500 !important;
+}
+.tech-use.fs-5{
+    font-size: 1.0625rem !important;
+}
+.a-live-demo.fs-6, .a-code.fs-6{
+    font-size: 1.0625rem !important;
+}
+.a-live-demo, .a-code{
+    transition: .3s ease-in-out;
+    border: 1px solid #000000 !important;
+}
+.a-live-demo:hover, .a-code:hover, .btn-show-more:hover{   
+    background-color: #ffff !important;
+    color: #000000 !important;
+    border: 1px solid #000000 !important;
+}
+.btn-show-more.fs-6{
+    font-size: 1.1rem !important;
+}
+.btn-show-more{
+    border: 1px solid #000000 !important;
+    transition: .3s ease-in-out;
+}
+
+
+@media screen and (max-width: 787px){
+    .project{
+        padding: 3rem 0;
+    }
+    .prject-header-title::before{
+        width: 50px;
+        left: 183px;
+        top: 19px;
+    }
+    .col-4{
+        width: 50% !important;
+    }
+    .custom-gtc{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .project{
+        padding: 2rem 0;
+    }
+    .prject-header-title.fs-2 {
+        font-size: 1.4rem !important;
+    }
+    .prject-header-title.mb-3 {
+        margin-bottom: .5rem !important;
+    }
+    .prject-header-title::before{
+        width: 20px;
+        left: 130px;
+        top: 14px;
+    }
+    .project-text.fs-6 {
+        font-size: 1rem !important;
+    }
+    .project-title.fs-5 {
+        font-size: 1.1rem!important;
+    }
+    .project-sub-title.fs-6 {
+        font-size: 1rem !important;
+    }
+    .tech-use.fs-5 {
+        font-size: 1rem !important;
+    }
+    .a-live-demo.py-2{
+        padding-top: .4rem !important;
+        padding-bottom: .4rem !important;
+    }
+    .a-live-demo.px-3{
+        padding-left: .6rem !important;
+        padding-right: .6rem !important;
+    }
+    .a-live-demo.fs-6{
+        font-size: 1rem !important;
+    }
+    .a-code.py-2{
+        padding-top: .4rem !important;
+        padding-bottom: .4rem !important;
+    }
+    .a-code.px-3{
+        padding-left: .6rem !important;
+        padding-right: .6rem !important;
+    }
+    .a-code.fs-6{
+        font-size: 1rem !important;
+    }
+    .btn-show-more.fs-6{
+        font-size: 1rem !important;
+    }
+    .col-4{
+        width: 100% !important;
+    }
+    .custom-gtc{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

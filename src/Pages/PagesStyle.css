@@ -1,0 +1,19 @@
+.mx-w-continer{
+    max-width: 1240px !important;
+}
+
+.mx-w-continer.px-7{
+    padding: 0 1.7rem !important;
+}
+
+@media screen and (max-width: 787px){
+    .mx-w-continer.px-7{
+        padding: 0 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .mx-w-continer.px-7{
+        padding: 0 1.1rem !important;
+    }
+}

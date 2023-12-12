@@ -1,0 +1,112 @@
+.navbar-menu{
+    z-index: 999;
+    position: fixed;
+    background-color: #FBFAFB !important;
+    width: 100%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 0.1rem 0.3rem 0.2rem rgba(0, 0, 0, 0.15);
+    font-family: 'Raleway',sans-serif;  
+}
+nav{
+    max-width: 1240px !important;
+    padding: 0 1.7rem !important;
+}
+nav.h-25{
+    height: 80px !important;
+}
+.navbar-humburger{
+    display: none;
+    color: #000000;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar-brand.custom-fw{
+    font-weight: 700;
+}
+.nav-link{
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+.nav-link:hover{
+    color: #000000!;
+}
+.contact-menu{
+    font-weight: 800 !important;
+}
+
+
+
+
+
+@media screen and (max-width: 787px){
+    nav{
+        padding: 0 1.5rem !important;
+    }
+    nav.h-25{
+        height: 70px !important;
+    }
+    .navbar-brand.fs-4{
+        font-size: 1.6rem !important;
+    } 
+    .navbar-humburger{
+        display: block !important;
+    }
+    .humburgerIcon{
+        font-size: 2rem;
+    }
+    .nav-ul{
+        position: absolute;
+        top: 0;
+        background-color: #e6e6e6;
+        margin-top: 4.4rem !important;
+        flex-direction: column;
+        left: -100%;
+        width: 100%;
+        transition: .3s ease-in-out;
+    }
+    .nav-ul.active{
+        left: 0;
+        transition: .3s ease-in-out;
+    }
+    .nav-item:not(:nth-child(1n+5)) {
+        margin-bottom: 1rem;
+    }
+    .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-link {
+        color: #000000 !important;
+        transition: .3s ease-in-out;
+        padding: 1.3rem 0 !important;
+        font-size: 1.1rem;
+    }
+    .nav-link:hover {
+        color: #3B82F6 !important;
+    }
+    .contact-menu{
+        font-weight: 500 !important;
+    }
+    .contact-menu:hover{
+        color: #3B82F6 !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+    nav{
+        padding: 0 1.1rem !important;
+    }
+    nav.h-25{
+        height: 60px !important;
+    }
+    .nav-ul{
+        margin-top: 3.7rem !important;
+    }
+    .nav-link {
+        padding: 1.1rem 0 !important;
+        font-size: 1rem;
+    }
+}

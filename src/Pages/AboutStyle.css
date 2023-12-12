@@ -1,0 +1,262 @@
+.about-me{
+    padding: 5rem 0 !important;
+}
+.about-title.fs-2{
+    font-size: 2rem !important;
+    font-weight: 600;
+    margin-bottom: 2.8rem !important;
+}
+.about-title::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #000000;
+    left: 160px;
+    top: 19px;
+}
+.about-me-body.mb-5{
+    margin-bottom: 8rem !important;
+}
+.about-me-img{
+    width: 45%;
+}
+.img-me{
+    background-image: url(../Asset/152228904_3639387579513474_2193700901534596907_n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 0 0.4375rem rgb(255 255 255 / 30%);
+    justify-self: center;
+    background-size: cover;
+    width: 26rem;
+    height: 26rem;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+}
+
+
+.title-about{
+    color: red;
+    background: pink;
+    height: 2.5rem;
+    width: 14.375rem;
+    margin-bottom: 1.875rem;
+}
+
+@keyframes profile_animate{
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.about-me-text{
+    width: 50%;
+}
+.paragraph-sub.fs-5{
+    font-size: 1.3rem !important;
+}
+.about-name.fs-1{
+    font-size: 2.2rem !important;
+    font-weight: 600;
+}
+.about-position.fs-3{
+    font-size: 1.5rem !important;
+    font-weight: 600;
+}
+.about-paragrap.fs-6{
+    font-size: 1.1rem !important;
+}
+
+.about-socials.no-list-style{
+    list-style-type: none;
+}
+.about-li.fs-5{
+    font-size: 1.1rem !important;
+}
+.social-icon{
+    font-size: 1.3125rem;
+    margin-right: 0.625rem;
+}
+
+
+
+
+.about-cando-title.fs-3{
+    font-weight: 600;
+}
+.cando-img{
+    width: 12.5rem;
+}
+.col-card{
+    border-radius: 3px;
+    box-shadow: 0 0.1rem 0.3rem 0.2rem rgba(0,0,0,.15);
+    transition: .3s ease-in-out;
+    min-height: 19.375rem;
+}
+.svg{
+    width: 5.625rem;
+}
+.title-card{
+    font-weight: 600;
+}
+.sub-card.fs-6{
+    font-size: 1.1rem!important;
+}
+.col-card:hover{
+    box-shadow: 0 0.1rem 0.3rem 0.2rem rgba(0,0,0,.45);
+}
+
+
+
+@media screen and (max-width: 787px){
+    .about-me {
+        padding: 3rem 0 !important;
+    }
+    .about-title.fs-2 {
+        font-size: 1.8rem !important;
+        margin-bottom: 2rem !important;
+    }
+    .about-title::before{
+        width: 50px;
+        left: 140px;
+        top: 19px;
+    }
+    .about-me-body.d-flex{
+        flex-direction: column !important;
+    }
+    .about-me-body.mb-5 {
+        margin-bottom: 5rem !important;
+    }
+    .about-me-img {
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .img-me {
+        width: 18rem;
+        height: 18rem;
+        box-shadow: inset 0 0 0 0.3125rem rgb(255 255 255 / 30%);
+    }
+    .about-me-text {
+        width: 100%;
+    }
+    .paragraph-sub.fs-5 {
+        font-size: 1.2rem !important;
+    }
+    .about-name.fs-1 {
+        font-size: 2rem !important;
+    }
+    .about-position.fs-3 {
+        font-size: 1.3rem !important;
+        font-weight: 600;
+    }
+    .about-paragrap.fs-6 {
+        font-size: 1.1rem !important;
+        text-align: justify;
+    }
+    .about-li.fs-5 {
+        font-size: 1.1rem !important;
+    }
+
+    .about-cando-title.fs-3{
+        font-size: 1.5rem !important;
+        margin-bottom: 2rem !important;
+    }
+    .col.px-3{
+        padding: 0 .4rem !important;
+    }
+    .col-card.px-5 {
+        padding: 1rem .3rem !important;
+    }
+    .svg {
+        width: 5rem;
+    }
+    .title-card.fs-5{
+        font-size: 1.1rem !important;
+    }
+    .sub-card.fs-6{
+        font-size: 1.1rem !important
+    }
+
+}
+
+
+
+@media screen and (max-width: 480px){
+    .about-me {
+        padding: 2rem 0 !important;
+    }
+    .about-me-body.mb-5 {
+        margin-bottom: 4rem !important;
+    }
+    .about-title.fs-2 {
+        font-size: 1.4rem !important;
+    }
+    .about-title::before{
+        width: 20px;
+        left: 108px;
+        top: 14px;
+    }
+    .img-me {
+        width: 17rem;
+        height: 17rem;
+        box-shadow: inset 0 0 0 0.3125rem rgb(255 255 255 / 30%);
+    }
+    .about-me-img {
+        margin-bottom: 1.6rem;
+    }
+    .paragraph-sub.fs-5 {
+        font-size: 1.1rem !important;
+    }
+    .about-name.fs-1 {
+        font-size: 1.7rem !important;
+    }
+    .about-position.fs-3 {
+        font-size: 1.2rem !important;
+        font-weight: 600;
+    }
+    .about-paragrap.fs-6 {
+        font-size: 1rem !important;
+        text-align: justify;
+    }
+    .about-li.fs-5 {
+        font-size: 1rem !important;
+    }
+
+    .about-cando-title.fs-3 {
+        font-size: 1.3rem !important;
+        margin-bottom: 1.8rem !important;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col.px-3 {
+        padding: 0 0.5rem !important;
+        width: 85%;
+    }
+    .col-card {
+        min-height: 13.4375rem;
+    }
+    .col-card.px-5 {
+        padding: 1rem 1rem !important;
+    }
+    .col:not(:nth-child(1n+3)) {
+        margin-bottom: 1rem;
+    }
+    .title-card.fs-5 {
+        margin-bottom: 0 !important;
+    }
+    .sub-card.fs-6 {
+        font-size: 1rem !important;
+    }
+}
