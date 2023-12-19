@@ -10,6 +10,8 @@ import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoGit } from "react-icons/bi";
 import { HiCommandLine } from "react-icons/hi2";
 import { TbBrandVscode } from "react-icons/tb";
+import { FaBootstrap } from "react-icons/fa6";
+import MaterialUI from '../Asset/material ui.png'
 
 export const WhatCanIDoItem = [
     {
@@ -57,7 +59,6 @@ export const myInformation = [
 ]
 
 
-
 export const MyTechSkills = [
     {
         id: 1,
@@ -92,13 +93,21 @@ export const MyTechSkills = [
     {
         id: 7,
         techIcon: <HiCommandLine className='skills-icon commandline'/>, 
-        nameIcon: "commandline"
+        nameIcon: "Commandline"
     },
     {
         id: 8,
         techIcon: <TbBrandVscode className='skills-icon VSCode'/>, 
         nameIcon: "VS Code"
+    },
+    {
+        id: 9,
+        techIcon: <FaBootstrap className='skills-icon bootstrap'/>, 
+        nameIcon: "Bootstrap" 
+    },
+    {
+        id: 10,
+        techIcon: <img src={MaterialUI} alt='Material UI' className='materialUi'/>, 
+        nameIcon: "Material UI" 
     }
 ]
-
-
