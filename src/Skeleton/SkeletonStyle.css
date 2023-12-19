@@ -1,24 +1,26 @@
 /* HomeSkeleton */
 .skeleton-home-info{
-    width: 50%;
     background-color: #E5EBEF;
     border-radius: 3px;
     padding: 1rem;
     position: relative;
     overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 .skeleton-home-subTitle{
-    height: 1.5625rem;
-    width: 12.5rem;
     border-radius: 3px;
     background-color: #FFFDFF;
     padding: 0;
     margin-bottom: 0.625rem;
+    height: 1.5625rem;
+    width: 5rem;
 }
 .skeleton-home-name{
-    height: 2.5rem;
-    width: 25rem;
+    height: 2.3125rem;
+    width: 18.125rem;
     border-radius: 3px;
     background-color: #FFFDFF;
     padding: 0;
@@ -26,32 +28,31 @@
 }
 .skeleton-home-position{
     height: 1.875rem;
-    width: 25rem;
+    width: 16.875rem;
     border-radius: 3px;
     background-color: #FFFDFF;
     padding: 0;
     margin-bottom: 0.625rem;
 }
 .skeleton-home-text{
-    height: 1.6875rem;
-    width: 21.875rem;
+    height: 1.25rem;
+    width: 18.75rem;
     border-radius: 3px;
     background-color: #FFFDFF;
     padding: 0;
     margin-bottom: 0.625rem;
 }
 .skeleton-home-btn{
-    height: 2.9375rem;
-    width: 8.75rem;
+    height: 2.5rem;
+    width: 7.5rem;
     border-radius: 3px;
     background-color: #FFFDFF;
     padding: 0;
 }
 
-
 /* HomeSkeletonImg */
 .skeleton-home-img{
-    width: 45%;
+    width: 100%;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -59,13 +60,11 @@
     justify-content: center;
 }
 .skeleton-profile-img{
-    width: 26rem;
-    height: 26rem;
+    width: 20rem;
+    height: 20rem;
     background-color: #E5EBEF;
     border-radius: 50%;
 }
-
-
 
 /* SHIMMER */
 .shimmer-wrapper{
@@ -94,17 +93,15 @@
     }
 }
 
-
-
 /* AboutSkeletonInfo */
 .skeleton-about-title{
     background-color: #E5EBEF;
-    height: 2.5rem;
-    width: 14.375rem;
+    height: 2rem;
+    width: 35%;
     margin-bottom: 1.875rem;
 }
 .skeleton-about-info{
-    width: 50%;
+    width: 100%;
     background-color: #E5EBEF;
     border-radius: 3px;
     padding: 1rem;
@@ -117,16 +114,16 @@
     margin-bottom: 0.625rem;
 }
 .skeleton-about-p1{
-    height: 1.6875rem;
-    width: 12.5rem;
+    height: 1.5rem;
+    width: 35%;
 }
 .skeleton-about-name{
-    height: 2.3125rem;
-    width: 18.75rem;
+    height: 2rem;
+    width: 65%;
 }
 .skeleton-about-position{
     height: 1.6875rem;
-    width: 19.375rem;
+    width: 70%;
 }
 .skeleton-about-p2{
     background-color: #FFFDFF !important;
@@ -138,13 +135,13 @@
     width: 100%;
 }
 .skeleton-about-p2.p2{
-    width: 90%;
+    width: 100%;
 }
 .skeleton-about-p2.p3{
-    width: 85%;
+    width: 100%;
 }
 .skeleton-about-p2.p4{
-    width: 88%;
+    width: 100%;
 }
 .skeleton-about-p2.p5{
     width: 100%;
@@ -174,16 +171,17 @@
 
 /* AboutSkeletonImg */
 .skeleton-about-img{
-    width: 45%;
+    width: 100%;
     position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1.5rem;
 }
 .skeleton-about-profileImg{
-    width: 26rem;
-    height: 26rem;
+    width: 17rem;
+    height: 17rem;
     background-color: #E5EBEF;
     border-radius: 50%;
 }
@@ -191,9 +189,9 @@
 /* WhatCanIDoSkeleton */
 .skeleton-wcid-title{
     background-color: #E5EBEF;
-    margin: 0 auto 3rem auto;
-    width: 30%;
-    height: 2.5rem;
+    margin: 0 auto 1rem auto;
+    width: 40%;
+    height: 2.1rem;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -202,11 +200,15 @@
     position: relative;
     overflow: hidden;
 }
+.skeleton-wcid-col{
+    margin-bottom: 1rem;
+}
 .skeleton-wcid-card{
     background-color: #E5EBEF;
     border-radius: 3px !important;
-    min-height: 19.375rem !important;
-    padding: 1.5rem 3rem !important;
+    height: 12.5rem;
+    margin: 0 3rem;
+    padding: .5rem 1rem !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
@@ -215,15 +217,15 @@
 .skeleton-wcid-div{
     border-radius: 3px;
     background-color: #FFFDFF;
-    margin-bottom: .8rem;
+    margin-bottom: .5rem;
 }
 .skeleton-wcid-div.img{
     width: 5.625rem;
-    height: 5.625rem;
+    height: 5rem;
     border-radius: 0.625rem;
 }
 .skeleton-wcid-div.title{
-    height: 1.5625rem;
+    height: 1.3rem;
     width: 11.25rem;
 }
 .wcid-paragraph{
@@ -232,28 +234,34 @@
     margin: 0 auto 6px auto;
     border-radius: 3px;
 }
+.ske-paragraph{
+    width: 100%;
+}
 .wcid-paragraph.wcidp1{
-    width: 12.5rem;
+    height: 1rem;
+    width: 80%;
 }   
 .wcid-paragraph.wcidp2{
-    width: 9.375rem;
+    height: 1rem;
+    width: 80%;
 } 
 .wcid-paragraph.wcidp3{
-    width: 11.875rem;
+    height: 1rem;
+    width: 80%;
     margin-bottom: 0;
 } 
 
-
 /* SkillsSkeleton */
 .skeleton-skills-title{
-    height: 2.5rem;
-    width: 18.75rem;
+    height: 2rem;
+    width: 13rem;
     background-color: #E5EBEF;
-    margin-bottom: .9rem;
+    margin-top: 3rem;
+    margin-bottom: .5rem;
 }
 .skeleton-skills-subTitle{
-    height: 2rem;
-    width: 9.375rem;
+    height: 1.7rem;
+    width: 10rem;
     background-color: #E5EBEF;
     margin-bottom: .3rem;
 }
@@ -293,13 +301,12 @@
     border-radius: 3px;
 }
 
-
 /* ProjectSkeleton */
 .skeleton-project-headTitle{
-    width: 15.625rem;
-    height: 2.5rem;
+    width: 10rem;
+    height: 2.2rem;
     background-color: #E5EBEF;
-    margin-bottom: .8rem;
+    margin-bottom: .3rem;
 }
 .skeleton-project-headText{
     height: 1.625rem;
@@ -314,10 +321,11 @@
     background-color: #E5EBEF;
     padding: 1rem;
     border-radius: 3px;
+    margin-bottom: .7rem;
 }
 .skeleton-project-img{
     width: 100%;
-    height: 11.3rem;
+    height: 8rem;
     background-color: #FFFDFF;
     margin-bottom: .5rem;
 }
@@ -384,25 +392,27 @@
     border-radius: 3px;
     width: 100%;
     margin: 0 auto;
-    height: 467px;
+    display: flex;
+    flex-direction: column;
 }   
 .skeleton-contact-body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
 }
 .skeleton-contact-img{
-    width: 216px;
-    height: 400px;
+    width: 100%;
+    height: 277px;
     background-color: #FFFDFF;
     border-radius: 3px;
 }
-
 .skeleton-contact-form{
-    padding: 1.5rem;
+    width: 100%;
+    padding: .5rem 1rem;
 }
 .skeleton-contact-subTitle{
-    height: 35px;
+    height: 2rem;
     width: 30%;
     margin: 0 auto 1rem auto;
     border-radius: 3px;
@@ -412,221 +422,256 @@
     margin-bottom: 1rem;
 }
 .skeleton-contac-input{
-    height: 53px;
+    height: 2rem;
     width: 100%;
     border-radius: 3px;
     background-color: #FFFDFF;
 }
 .skeleton-contac-input.contac-textarea{
-    height: 98px;
+    height: 3.5rem;
 }
 .skeleton-contact-btn{
-    height: 45px;
-    width: 110px;
+    height: 2rem;
+    width: 100%;
     border-radius: 3px;
     background-color: #FFFDFF;
 }
 
 
+@media (min-width: 576px) and (max-width: 767px) {
 
-
-@media screen and (max-width: 787px){
-    /* HomeSkeletonInfo */
-    .skeleton-home-info{
-        width: 22.5rem;
-    }
-    .skeleton-home-subTitle{
-        width: 10.625rem;
-        margin-bottom: 0.4375rem;
-    }
-    .skeleton-home-name{
-        width: 300px;
-        margin-bottom: 0.4375rem;
-    }
-    .skeleton-home-position{
-        width: 300px;
-        margin-bottom: 0.4375rem;
-    }
-    .skeleton-home-text{
-        width: 300px;
-        margin-bottom: 0.4375rem;
-    }
-
-    /* HomeSkeletonImg */
-    .skeleton-profile-img{
-        width: 17rem;
-        height: 17rem;
-        background-color: #E5EBEF;
-        border-radius: 50%;
-    }
-
-    /* AboutSkeletonImg */
-    .skeleton-about-img{
-        width: 100%;
-    }
-    .skeleton-about-profileImg{
-        width: 18rem;
-        height: 18rem;
-    }
-
-    /* AboutSkeletonInfo*/
-    .skeleton-about-info{
-        width: 100%;
-    }
-
-    /* SkillsSkeleton */
-    .skeleton-skills-row{
-        width: 90%;
-        display: grid !important;
-        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-    }
-    .skeleton-skills-myGap {
-        margin: 1rem auto 0 auto;
-        width: auto;
-    }
-
-    /* ContactSkeleton */
-    .skeleton-contact-row {
-        height: 865px;
-    }
-    .skeleton-contact-body.col-6{
-        width: 100% !important;
-    }
-    .skeleton-contact-body{
-        padding: .8rem 0;
-    }
-    .skeleton-contact-form.col-6{
-        width: 100% !important;
-    }
 }
-
-@media screen and (max-width: 480px){
+@media (min-width: 768px) and (max-width: 991.98px){
     /* HomeSkeleton */
     .skeleton-home-info{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .skeleton-home-subTitle{
-        height: 1.5625rem;
-        width: 5rem;
-    }
-    .skeleton-home-name{
-        height: 2.3125rem;
-        width: 18.125rem;
-    }
-    .skeleton-home-position{
-        width: 16.875rem;
-    }
-    .skeleton-home-text{
-        height: 1.25rem;
-        width: 18.75rem;
-    }
-    .skeleton-home-btn{
-        height: 2.5rem;
-        width: 7.5rem;
+        align-items: start;
+        width: 50%;
     }
 
     /* HomeSkeletonImg */
     .skeleton-home-img{
-        width: 100%;
+        width: 50%;
     }
     .skeleton-profile-img{
-        width: 17rem;
-        height: 17rem;
-        background-color: #E5EBEF;
-        border-radius: 50%;
+        width: 18rem;
+        height: 18rem;
     }
 
-
-    /* AboutSkeletonImg */
-    .skeleton-about-profileImg{
-        width: 15rem;
+    /* About */
+    .skeleton-about-title{
+        width: 20%;
+    }
+    /* WhatCanIDoSkeleton */
+    .skeleton-wcid-title{
+        margin: 0 auto 1.5rem auto;
+    }
+    .skeleton-wcid-card{
+        width: 100%;
+        margin: 0 0;
         height: 15rem;
     }
 
-    /* AboutSkeletonInfo */
-    .skeleton-about-title{
-        height: 1.75rem;
-        width: 12.5rem;
-        margin-bottom: 1.875rem;
-    }
-    .skeleton-about-p2.d-none{
-        display: block !important;
-    }
-
-    /* WhatCanIDo */
-    .wcid-paragraph.wcidp3{
-        display: none;
-    } 
-    .skeleton-wcid-card {
-        padding: 1rem 1rem !important;
-        min-height: 13.4375rem !important;
-    }
-    .skeleton-wcid-div {
-        margin-bottom: 0.5rem;
-    }
-
-    /* SkillsSkeleton */
+    /*Skill and Tools*/
     .skeleton-skills-title{
-        height: 1.9rem;
-        width: 10rem;
-        margin-bottom: .4rem;
+        margin-top: 0;
+        height: 2.5rem;
+        width: 13rem;
     }
     .skeleton-skills-subTitle{
-        height: 1.6rem;
-        width: 8rem;
-        margin-bottom: .1rem;
+        height: 2rem;
     }
     .skeleton-skills-text{
-        height: 1.3rem;
-        width: 100%;
-    }
-    .skeleton-skills-row{
-        width: 100%;
-        display: grid !important;
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        padding: 0 0 1.1rem 0;
+        height: 1.6rem;
     }
 
-    /* ProjectSkeleton */
-    .skeleton-project-headTitle{
-        width: 12.5rem;
-        height: 1.6875rem;
-        margin-bottom: .5rem;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* HomeSkeleton */
+    .skeleton-home-info{
+        align-items: start;
+        width: 50%;
     }
-    .skeleton-project-headText{
-        height: 1.5rem;
-        width: 16.875rem;
+    .skeleton-home-name{
+        width: 80%;
+    }
+    .skeleton-home-position{
+        width: 85%;
+    }
+    .skeleton-home-text{
+        width: 90%;
+    }
+    .skeleton-home-btn{
+        width: 30%;
+    }
+
+    /* HomeSkeletonImg */
+    .skeleton-home-img{
+        width: 50%;
+    }
+    .skeleton-profile-img{
+        width: 22rem;
+        height: 22rem;
+    }
+
+    /* About */
+    .skeleton-about-title{
+        width: 20%;
+    }
+    .skeleton-about-profileImg{
+        width: 22rem;
+        height: 22rem;
+    }
+    /* WhatCanIDoSkeleton */
+    .skeleton-wcid-title{
+        margin: 1rem auto 3rem auto;
+    }
+    .skeleton-wcid-card{
+        width: 100%;
+        margin: 0 0;
+        height: 17rem;
+    }
+
+    /*Skill and Tools*/
+    .skeleton-skills-title{
+        margin-top: 0;
+        height: 2.5rem;
+        width: 13rem;
+    }
+    .skeleton-skills-subTitle{
+        height: 2rem;
+    }
+    .skeleton-skills-text{
+        height: 1.6rem;
     }
 
     /* ContactSkeleton */
-    .skeleton-contact-row {
-        height: auto;
+    .skeleton-project{
+        height: 45px;
     }
+    .skeleton-contact-row{
+        flex-direction: row;
+    }   
     .skeleton-contact-body{
-        padding: .8rem 0;
+        width: 50%;
+        height: 400px;
     }
     .skeleton-contact-img{
-        height: 277px;
+        height: 100%;
     }
-    .skeleton-contact-body.col-6{
-        width: 100% !important;
-    }
-    .skeleton-contact-form.col-6{
-        width: 100% !important;
+    .skeleton-contact-form{
+        width: 50%;
+        padding: .5rem 1rem;
     }
     .skeleton-contact-subTitle{
-        height: 25px;
+        height: 2.5rem;
     }
-    .skeleton-contac-input.contac-input{
-        height: 40px;
+    .contac-input, .contac-textarea{
+        margin-bottom: 1.3rem;
+    }
+    .skeleton-contac-input{
+        height: 2.5rem;
     }
     .skeleton-contac-input.contac-textarea{
-        height: 85px;
+        height: 4rem;
     }
     .skeleton-contact-btn{
-        height: 42px;
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px){
+    /* HomeSkeleton */
+    .skeleton-home-info{
+        align-items: start;
+        width: 50%;
+    }
+    .skeleton-home-name{
+        width: 60%;
+    }
+    .skeleton-home-position{
+        width: 65%;
+    }
+    .skeleton-home-text{
+        width: 70%;
+    }
+    .skeleton-home-btn{
+        width: 25%;
+    }
+    
+    /* HomeSkeletonImg */
+    .skeleton-home-img{
+        width: 50%;
+    }
+    .skeleton-profile-img{
+        width: 22rem;
+        height: 22rem;
+    }
+
+    /* About */
+    .skeleton-about-title{
+        width: 15%;
+    }
+    .skeleton-about-profileImg{
+        width: 22.5rem;
+        height: 22.5rem;
+    }
+    /* WhatCanIDoSkeleton */
+    .skeleton-wcid-title{
+        margin: 1rem auto 3rem auto;
+    }
+    .skeleton-wcid-card{
+        width: 100%;
+        margin: 0 0;
+        height: 17rem;
+    }
+
+    /*Skill and Tools*/
+    .skeleton-skills-title{
+        margin-top: 0;
+        height: 2.5rem;
+        width: 13rem;
+    }
+    .skeleton-skills-subTitle{
+        height: 2rem;
+    }
+    .skeleton-skills-text{
+        height: 1.6rem;
+    }
+
+    /* ContactSkeleton */
+    .skeleton-project{
+        height: 45px;
+    }
+    .skeleton-contact-row{
+        flex-direction: row;
+    }   
+    .skeleton-contact-body{
+        width: 50%;
+        height: 400px;
+    }
+    .skeleton-contact-img{
+        height: 100%;
+    }
+    .skeleton-contact-form{
+        width: 50%;
+        padding: .5rem 1rem;
+    }
+    .skeleton-contact-subTitle{
+        height: 2.5rem;
+    }
+    .contac-input, .contac-textarea{
+        margin-bottom: 1.3rem;
+    }
+    .skeleton-contac-input{
+        height: 2.5rem;
+    }
+    .skeleton-contac-input.contac-textarea{
+        height: 4rem;
+    }
+    .skeleton-contact-btn{
+        width: 40%;
+        margin: 0 auto;
     }
 }
