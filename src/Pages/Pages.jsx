@@ -8,8 +8,8 @@ import './PagesStyle.css'
 
 export const Pages = () => {
   return (
-    <div className='pages mx-w-continer mx-auto px-7'>
-      <Home/>
+    <div className='pages container w-100' style={{ overflow: 'hidden' }}>
+        <Home/>
         <About/>
         <Skills/>
         <Project/>
