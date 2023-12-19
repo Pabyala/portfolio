@@ -60,7 +60,7 @@ export const AboutSkeletonTitle = () => {
 export const WhatCanIDoSkeleton = () => {
     return (
         <Row className='skeleton-wcid-row'>
-            <Col sm={4} className='skeleton-wcid-col col px-3'>
+            <Col xs={12} md={4} lg={4} xl={4}  className='skeleton-wcid-col'>
                 <div className='skeleton-wcid-card'>
                     <div className='skeleton-wcid-div img'></div>
                     <div className='skeleton-wcid-div title'></div>
@@ -71,7 +71,7 @@ export const WhatCanIDoSkeleton = () => {
                     </div>
                 </div>
             </Col>
-            <Col sm={4} className='col px-3'>
+            <Col xs={12} md={4} lg={4} xl={4}  className='skeleton-wcid-col'>
                 <div className='skeleton-wcid-card'>
                     <div className='skeleton-wcid-div img'></div>
                     <div className='skeleton-wcid-div title'></div>
@@ -82,7 +82,7 @@ export const WhatCanIDoSkeleton = () => {
                     </div>
                 </div>
             </Col>
-            <Col sm={4} className='col px-3'>
+            <Col xs={12} md={4} lg={4} xl={4}  className='skeleton-wcid-col'>
                 <div className='skeleton-wcid-card'>
                     <div className='skeleton-wcid-div img'></div>
                     <div className='skeleton-wcid-div title'></div>
