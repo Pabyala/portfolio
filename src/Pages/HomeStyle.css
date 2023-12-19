@@ -3,33 +3,34 @@
     padding: 5rem 0rem 3rem 0rem;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
 }
 .home-subtitle{
-    font-weight: 500;
-}
-.home-subtitle::before{
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 1px;
-    background-color: #000000;
-    left: 97px;
-    top: 15px;
+    font-size: 1.1rem;
 }
 .home-name{
-    font-size: 3rem;
+    font-size: 2.1rem;
     font-weight: 700;
 }
 .home-title{
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    /* color: #0084ff !important; */
     color: #797979 !important;
 }
-.home-sub-info.fs-6{
-    font-size: 1.1rem !important;
+.home-sub-info{
+    font-size: 1rem !important;
+    text-align: center;
 }
-
 .home-subtitle, .home-name, .home-title{
     margin: 0;
     font-family: 'Raleway' ,sans-serif;
@@ -38,12 +39,13 @@
 }
 .home-github{
     border: 1px solid #000000;
-    width: 9.375rem;
-    font-size: 1.125rem;
     background-color: #ffff;
     color: #000000;
     border-radius: 3px;
     transition: .3s ease-in-out;
+    padding: 0.4rem 0;
+    font-size: 1rem;
+    width: 7rem;
 }
 .githubIcon{
     margin-left: 0.625rem;
@@ -52,20 +54,20 @@
     background-color: #000000;
     color: #ffff;
 }
-
-
 .profile-img-body{
-    width: 45%;
+    height: 50%;
+    margin: 1rem 0 2rem 0;
+    width: 100%;
 }
 .profile-img{
     background-image: url(../Asset/20230120_134042\ \(1\).jpg);
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: inset 0 0 0 0.4375rem rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 0.3125rem hsla(0,0%,100%,.3);
     justify-self: center;
     background-size: cover;
-    width: 26rem;
-    height: 26rem;
+    height: 17.5rem;
+    width: 17.5rem;
     animation: profile_animate 8s ease-in-out infinite 1s;
 }
 
@@ -86,37 +88,33 @@
     height: 205px;
     background-color: #797979;
 }
-
-
 .bg-dot{
     position: absolute;
     z-index: -1;
-    top: 326px;
-    left: 548px;
-    width: 100%;
-    height: 407px;
     background-image: radial-gradient(#000000 5%, transparent 0);
-    background-size: 35px 35px;
+    background-size: 34px 35px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
-
-
-@media screen and (max-width: 787px){
-    .home-content{
-        padding: 5rem 0rem 3rem 0rem;
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .home-content {
+        flex-direction: row;
+        justify-content: space-between;
     }
-    .home-subtitle.fs-4 {
-        font-size: 1.3rem !important;
+    .home-info {
+        width: 50%;
+        height: auto;
+        align-items: start;
     }
-    .home-subtitle::before{
-        content: '';
-        position: absolute;
-        width: 100px;
-        height: 1px;
-        background-color: #000000;
-        left: 78px;
-        top: 11px;
+    .home-subtitle {
+        font-size: 1.3rem;
     }
     .home-name {
         font-size: 2.3rem;
@@ -124,79 +122,106 @@
     .home-title {
         font-size: 1.5rem;
     }
-    .profile-img {
-        width: 17.5rem;
-        height: 17.5rem;
-        box-shadow: inset 0 0 0 0.3125rem rgb(255 255 255 / 30%);
+    .home-sub-info {
+        font-size: 1.1rem !important;
+        text-align: start;
     }
     .home-github {
-        width: 8.5rem;
+        padding: 0.4rem 0;
         font-size: 1.1rem;
+        width: 8.5rem;
     }
-    .home-github.py-2{
-        padding: .4rem 0 !important;
+    .profile-img-body {
+        width: 45%;
     }
-    .bg-dot{
-        left: 237px;
+    .bg-dot {
+        background-size: 35px 35px;
         height: 336px;
+        left: 237px;
+        top: 326px;
     }
 }
 
-@media screen and (max-width: 480px){
-    .home-content{
-        padding: 5rem 0rem 3rem 0rem;
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .home-content {
+        flex-direction: row;
+        justify-content: space-between;
     }
-    .home-content.d-flex{
-        flex-direction: column-reverse;
+    .home-info {
+        width: 50%;
+        height: auto;
+        align-items: start;
     }
-    .home-content.justify-content-between{
-        justify-content: space-evenly !important;
-    }
-    .home-info{
-        text-align: center;
-        height: 40% !important;
-        justify-content: center !important;
-    }
-    .home-info.w-50{
-        width: 100% !important;
-    }
-    .home-subtitle.fs-4{
-        font-size: 1.1rem !important;
-    }
-    .home-subtitle::before{
-        content: '';
-        position: absolute;
-        width: 0px;
-        background-color: #000000;
-        left: 0px;
-        top: 0px;
+    .home-subtitle {
+        font-size: 1.5rem;
     }
     .home-name {
-        font-size: 2.1rem;
+        font-size: 2.6rem;
     }
     .home-title {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
-    .home-sub-info.fs-6{
-        font-size: 1rem !important;
+    .home-sub-info {
+        font-size: 1.2rem !important;       
     }
     .home-github {
-        width: 7rem;
-        font-size: 1rem;
-        margin: 0 auto;
+        font-size: 1.3rem;
+        width: 9.375rem;
     }
     .profile-img-body {
-        width: 100%;
-        height: 50% !important;
-        margin-top: 1rem !important;
-        margin-bottom: 2rem !important;
+        width: 45%;
+        height: auto;
     }
-    .bg-dot{
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: initial;
+    .profile-img {
+        height: 26rem;
+        width: 26rem;
     }
-    
+    .bg-dot {
+        height: 336px;
+        left: 437px;
+        top: 326px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+    .home-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .home-info {
+        width: 50%;
+        height: auto;
+        align-items: start;
+    }
+    .home-subtitle {
+        font-size: 1.5rem;
+    }
+    .home-name {
+        font-size: 2.6rem;
+    }
+    .home-title {
+        font-size: 1.8rem;
+    }
+    .home-sub-info {
+        font-size: 1.2rem !important;       
+    }
+    .home-github {
+        font-size: 1.3rem;
+        width: 9.375rem;
+    }
+    .profile-img-body {
+        width: 45%;
+        height: auto;
+    }
+    .profile-img {
+        height: 26rem;
+        width: 26rem;
+    }
+    .bg-dot {
+        height: 336px;
+        left: 470px;
+        top: 326px;
+        width: 100%;
+    }
 }
