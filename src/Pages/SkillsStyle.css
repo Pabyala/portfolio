@@ -69,6 +69,19 @@
     height: 72px;
     padding: .5rem 0;
 }
+.skills-icon.typeScript{
+    color: #2F74C0;
+    padding: .4rem 0;
+}
+.skills-icon.nodeJs{
+    color: #000000;
+}
+.skills-icon.expressJs{
+    color: #000000;
+}
+.skills-icon.mongoDB{
+    color: #09934E;
+}
 .icon-name{
     color: #161614;
 }

@@ -12,6 +12,10 @@ import { HiCommandLine } from "react-icons/hi2";
 import { TbBrandVscode } from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa6";
 import MaterialUI from '../Asset/material ui.png'
+import { SiTypescript } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 export const WhatCanIDoItem = [
     {
@@ -109,5 +113,25 @@ export const MyTechSkills = [
         id: 10,
         techIcon: <img src={MaterialUI} alt='Material UI' className='materialUi'/>, 
         nameIcon: "Material UI" 
+    },
+    {
+        id: 11,
+        techIcon: <SiTypescript className='skills-icon typeScript'/>, 
+        nameIcon: "TypeScript" 
+    },
+    {
+        id: 12,
+        techIcon: <FaNode  className='skills-icon nodeJs'/>, 
+        nameIcon: "NodeJs" 
+    },
+    {
+        id: 13,
+        techIcon: <SiExpress   className='skills-icon expressJs'/>, 
+        nameIcon: "ExpressJs" 
+    },
+    {
+        id: 14,
+        techIcon: <SiMongodb    className='skills-icon mongoDB'/>, 
+        nameIcon: "MongoDB" 
     }
 ]
