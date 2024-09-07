@@ -16,6 +16,8 @@ import { SiTypescript } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 export const WhatCanIDoItem = [
     {
@@ -133,5 +135,15 @@ export const MyTechSkills = [
         id: 14,
         techIcon: <SiMongodb    className='skills-icon mongoDB'/>, 
         nameIcon: "MongoDB" 
-    }
+    },
+    {
+        id: 15,
+        techIcon: <SiMysql    className='skills-icon mySQL'/>, 
+        nameIcon: "MySQL" 
+    },
+    {
+        id: 16,
+        techIcon: <FaJava    className='skills-icon java'/>, 
+        nameIcon: "Java" 
+    },
 ]
