@@ -54,6 +54,10 @@
 .a-live-demo, .a-code{
     width: 48%;
 }
+.a-code{
+    background-color:  #ffff !important;
+    color: black !important;
+}
 .a-live-demo, .a-code, .btn-show-more{
     transition: .3s ease-in-out;
     font-size: .9rem;
@@ -61,10 +65,15 @@
     border: 1px solid #000000;
     text-align: center;
 }
-.a-live-demo:hover, .a-code:hover, .btn-show-more:hover{   
+.a-live-demo:hover, .btn-show-more:hover{   
     background-color: #ffff !important;
     color: #000000 !important;
     border: 1px solid #000000;
+    font-weight: 600;
+}
+.a-code:hover{   
+    background-color: black !important;
+    color: #ffff !important;
     font-weight: 600;
 }
 .more-wrap {
