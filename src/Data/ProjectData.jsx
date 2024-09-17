@@ -1,9 +1,9 @@
 import OnePieaceProject from '../Asset/One Piece.png'
-import IDGeneratorProject from "../Asset/ID's Generator.png"
 import GShortcutProject from "../Asset/GShortcut.png"
 import MarFShoeStoreProject from "../Asset/Min-Shoe-Store.png"
 import WeatherAppProject from '../Asset/Weather-app.jpg'
 import MovieHubProject from "../Asset/movie.png"
+import CrudOperationProject from "../Asset/Crud.png"
 
 export const ProjectData = [
     {
@@ -18,16 +18,6 @@ export const ProjectData = [
     },
     {
         id: 2,
-        img: IDGeneratorProject,
-        projectTitle: "ID's Generator",
-        projectDetails: 'This website generates 4 unique school IDs, and you can choose the school you want.' +
-                        ' All you need to do is fill up the form and download your ID.',
-        projectTechUse: "HTML, CSS, JavaScript, Responsive Design",
-        projectLinkLive: "https://pabyala.github.io/id-generator/",
-        projectLinkCode: "https://github.com/Pabyala/id-generator"
-    },
-    {
-        id: 3,
         img: GShortcutProject,
         projectTitle: "Google Shortcu",
         projectDetails: 'This "G-Shortcut" a platform enabling you to create personalized shortcuts' + 
@@ -38,7 +28,7 @@ export const ProjectData = [
         projectLinkCode: "https://github.com/Pabyala/shortcut"
     },
     {
-        id: 4,
+        id: 3,
         img: MarFShoeStoreProject,
         projectTitle: "MarF Shoe Store",
         projectDetails: "It's an online shoe shop where you can choose your favorite sneakers," +
@@ -49,7 +39,7 @@ export const ProjectData = [
         projectLinkCode: "https://github.com/Pabyala/MarF.shoe-shop"
     },
     {
-        id: 5,
+        id: 4,
         img: WeatherAppProject,
         projectTitle: "Weather Forecast",
         projectDetails: "It's a website that shows the current weather forecast and a five-day forecast." +
@@ -59,7 +49,7 @@ export const ProjectData = [
         projectLinkCode: "https://github.com/Pabyala/weatherforecast-app"
     },
     {
-        id: 6,
+        id: 5,
         img: MovieHubProject,
         projectTitle: "Movies Hub",
         projectDetails: "It's a website where you can see popular movies and TV series. Choose a genre," +
@@ -68,5 +58,14 @@ export const ProjectData = [
         projectTechUse: "HTML, CSS, Bootstrap, Material UI, ReactJs, Responsive Design",
         projectLinkLive: "https://m0vieshub.netlify.app",
         projectLinkCode: "https://github.com/Pabyala/movies.hub"
+    },
+    {
+        id: 6,
+        img: CrudOperationProject,
+        projectTitle: "CRUD Operation ft. full stack",
+        projectDetails: "This CRUD app uses React with TypeScript, Redux, Node.js, and MongoDB. It lets users create, read, update, and delete records, demonstrating a full-stack setup with state management and efficient data handling.",
+        projectTechUse: "React-TypeScript, Tailwind, Responsive Design",
+        projectLinkLive: "https://crudperati0n.netlify.app",
+        projectLinkCode: "https://github.com/Pabyala/crud-mern-frontend"
     },
 ]
