@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 .backToTop-icon{
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: #ffff;
 }   
 
@@ -25,9 +25,6 @@
         height: 35px;
         width: 35px;
     }
-    .backToTop-icon{
-        font-size: 1.7rem;
-    }   
 }
 
 @media screen and (max-width: 480px){
@@ -38,6 +35,6 @@
         width: 35px;
     }
     .backToTop-icon{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }  
 }

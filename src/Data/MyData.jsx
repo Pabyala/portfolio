@@ -18,6 +18,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
 export const WhatCanIDoItem = [
     {
@@ -145,5 +146,10 @@ export const MyTechSkills = [
         id: 16,
         techIcon: <FaJava    className='skills-icon java'/>, 
         nameIcon: "Java" 
+    },
+    {
+        id: 16,
+        techIcon: <SiTailwindcss    className='skills-icon tailwind'/>, 
+        nameIcon: "Tailwind" 
     },
 ]
