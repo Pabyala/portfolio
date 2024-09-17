@@ -65,7 +65,7 @@ export const ProjectData = [
         projectTitle: "CRUD Operation ft. full stack",
         projectDetails: "This CRUD app uses React with TypeScript, Redux, Node.js, and MongoDB. It lets users create, read, update, and delete records, demonstrating a full-stack setup with state management and efficient data handling.",
         projectTechUse: "React-TypeScript, Tailwind, Responsive Design",
-        projectLinkLive: "https://crudperati0n.netlify.app",
+        projectLinkLive: "https://crud0peration.netlify.app",
         projectLinkCode: "https://github.com/Pabyala/crud-mern-frontend"
     },
 ]
