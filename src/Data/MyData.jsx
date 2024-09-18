@@ -129,27 +129,27 @@ export const MyTechSkills = [
     },
     {
         id: 13,
-        techIcon: <SiExpress   className='skills-icon expressJs'/>, 
+        techIcon: <SiExpress  className='skills-icon expressJs'/>, 
         nameIcon: "ExpressJs" 
     },
     {
         id: 14,
-        techIcon: <SiMongodb    className='skills-icon mongoDB'/>, 
+        techIcon: <SiMongodb className='skills-icon mongoDB'/>, 
         nameIcon: "MongoDB" 
     },
     {
         id: 15,
-        techIcon: <SiMysql    className='skills-icon mySQL'/>, 
+        techIcon: <SiMysql className='skills-icon mySQL'/>, 
         nameIcon: "MySQL" 
     },
     {
         id: 16,
-        techIcon: <FaJava    className='skills-icon java'/>, 
+        techIcon: <FaJava className='skills-icon java'/>, 
         nameIcon: "Java" 
     },
     {
-        id: 16,
-        techIcon: <SiTailwindcss    className='skills-icon tailwind'/>, 
+        id: 17,
+        techIcon: <SiTailwindcss className='skills-icon tailwind'/>, 
         nameIcon: "Tailwind" 
     },
 ]
