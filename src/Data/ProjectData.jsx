@@ -13,7 +13,7 @@ export const ProjectData = [
         projectDetails: 'Provide a list of pirate groups, as well as the ongoing story in the anime and' + 
                         ' the birthday list of each character. It also has a short quiz with 25 items.',
         projectTechUse: "HTML, CSS, ReactJs, Responsive Design",
-        projectLinkLive: "https://pabyala.github.io/onepiece/",
+        projectLinkLive: "https://0nepiece.netlify.app",
         projectLinkCode: "https://github.com/Pabyala/onepiece"
     },
     {
