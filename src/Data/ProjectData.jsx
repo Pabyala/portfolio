@@ -24,7 +24,7 @@ export const ProjectData = [
                         ' effortlessly. Just enter the name and valid URL of your choice. Once added,' + 
                         ' easily click on these shortcuts to access the webpages or sites.',
         projectTechUse: "CSS, ReactJs, Bootstrap, Responsive Design",
-        projectLinkLive: "https://pabyala.github.io/shortcut/",
+        projectLinkLive: "https://g-shortcut.netlify.app/",
         projectLinkCode: "https://github.com/Pabyala/shortcut"
     },
     {
