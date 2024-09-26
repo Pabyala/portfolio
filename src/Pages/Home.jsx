@@ -23,7 +23,7 @@ export const Home = () => {
       (<div className="home-info"> 
           <h5 className="home-subtitle position-relative span-subtitle">Hi, I am</h5>
           <h1 className='home-name my-1'>Eleomar Fajutnao</h1>
-          <h2 className='home-title mb-1'>Junior Front End Developer</h2>
+          <h2 className='home-title mb-1'>Junior Web Developer</h2>
           <p className='home-sub-info fst-italic'>I love exploring and building things for the web.</p>
           <a className='home-github text-decoration-none d-flex justify-content-center align-items-center' 
             href="https://github.com/Pabyala"
