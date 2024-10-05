@@ -6,7 +6,7 @@ import TechUse from "./TechUse";
 export const MyProjects = ({ id, img, title, details, techUse, linkLive, linkCode, }) => {
     const [open, setOpen] = useState(false);
     const techSlice = techUse.slice(0, 6);
-    console.log("Tech Slice: ", techUse.length);
+
     return (
         <div
             key={id}
@@ -16,20 +16,24 @@ export const MyProjects = ({ id, img, title, details, techUse, linkLive, linkCod
                 <img
                     className="project-img w-100 object-fit-cover "
                     src={img}
-                    alt=""
+                    alt={title}
                 />
             </div>
             <div>
                 <p className="project-title">{title}</p>
                 <p className="project-sub-title">
-                    {`${details.slice(0, 70)}...`}
-                    <span
+                {details.length > 130 ? (
+                    <>
+                        {`${details.slice(0, 130)}...`}
+                        <span
                         onClick={() => setOpen(true)}
                         className="cursor-pointer fw-bold text-decoration-none text-primary"
                         style={{ cursor: "pointer" }}
-                    >
+                        >
                         see more
-                    </span>
+                        </span>
+                    </>
+                ) : details}
                 </p>
                 <Project
                     show={open}

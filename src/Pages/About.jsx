@@ -38,11 +38,7 @@ export const About = () => {
               <h2 className='about-name m-0'>Eleomar Fajutnao</h2>
               <h5 className='about-position'>Junior Web Developer</h5>
               <p className='about-paragrap'>
-                I am web developer doing all things creative to make the web a 
-                more unique and awesome place. In this portfolio, you will find a 
-                collection of my personal projects that demonstrate my abilities in 
-                creating websites and responsive web design that are displayed on all 
-                devices, such as desktops, laptops, tablets, and smartphones.
+              I’m a Jr. web developer focused on crafting unique and creative web experiences. My portfolio highlights personal projects that showcase my expertise in building responsive websites for all devices, including desktops, laptops, tablets, and smartphones.
               </p>
               <ul className="about-socials no-list-style p-0 m-0">
                 {myInformation.map((info, index) => {

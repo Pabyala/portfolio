@@ -23,13 +23,12 @@
     cursor: pointer;
 }
 .tech-icon{
-    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .skills-icon{
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: #aaa;
 }
 .icon-name{
@@ -37,67 +36,13 @@
     margin-bottom: 0;
     color: #aaa;
 }
-.skills-icon.html{
-    color: #E44D26;
-}
-.skills-icon.css{
-    color: #1B73BA;
-}
-.skills-icon.javaScript{
-    color: #F0DC4E;
-}
-.skills-icon.react{
-    color: #00D9FF;
-}
-.skills-icon.git{
-    color: #F05134;
-}
-.skills-icon.github{
-    color: #161614;
-}
-.skills-icon.commandline{
-    color: #3C3C3C;
-}
-.skills-icon.VSCode{
-    color: #3C99D4;
-}
-.bootstrap{
-    color: #8712F7;
-}
-.materialUi{
-    width: 55px;
-    height: 60px;
-    padding: .5rem 0;
-}
-.skills-icon.typeScript{
-    color: #2F74C0;
-    padding: .4rem 0;
-}
-.skills-icon.nodeJs{
-    color: #000000;
-}
-.skills-icon.expressJs{
-    color: #000000;
-}
-.skills-icon.mongoDB{
-    color: #09934E;
-}
-.skills-icon.mySQL{
-    color: #00618A;
-}
-.skills-icon.java{
-    color: #5382A1;
-}
-.skills-icon.tailwind{
-    color: #36B7F0;
-}
 .icon-name{
     color: #161614;
-}
+} 
 
 @media (min-width: 576px) and (max-width: 767px) {
     .skills-icon {
-        font-size: 3.3rem;
+        font-size: 2.9rem;
     }
     .materialUi{
         width: 45px;
@@ -115,7 +60,7 @@
         font-size: 1.1rem;
     }
     .skills-icon {
-        font-size: 3.3rem;
+        font-size: 3.2rem;
     }
     .materialUi{
         width: 45px;

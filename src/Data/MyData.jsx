@@ -2,23 +2,9 @@ import webImg from '../Asset/web-design.png'
 import responsiveImg from '../Asset/responsive.png'
 import dataImg from '../Asset/web-design.png'
 
-import { MdDateRange, MdEmail } from "react-icons/md";
-import { BiSolidPhoneCall } from "react-icons/bi";
+import { MdEmail } from "react-icons/md";
 import { AiFillHome } from "react-icons/ai";
-
-import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
-import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoGit } from "react-icons/bi";
-import { HiCommandLine } from "react-icons/hi2";
-import { TbBrandVscode } from "react-icons/tb";
-import { FaBootstrap } from "react-icons/fa6";
-import MaterialUI from '../Asset/material ui.png'
-import { SiTypescript } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { CibViber, DeviconGit, DeviconGithub, DeviconJavaWordmark, DeviconTailwindcss, FlatColorIconsCommandLine, IconoirNpm, LogosBootstrap, LogosCss3, LogosHtml5, LogosJavascript, LogosMaterialUi, LogosMysql, SkillIconsExpressjsLight, SkillIconsMongodb, SkillIconsNodejsDark, SkillIconsReactDark, SkillIconsVscodeDark, VscodeIconsFileTypeTypescriptOfficial } from '../Components/Icons';
 
 export const WhatCanIDoItem = [
     {
@@ -44,13 +30,8 @@ export const WhatCanIDoItem = [
 
 export const myInformation = [
     {
-        id: 1,
-        icon: <MdDateRange className='social-icon'/> ,
-        iconInfo: "22nd October 2000"
-    },
-    {
         id: 2,
-        icon: <BiSolidPhoneCall className='social-icon'/>,
+        icon: <CibViber className='social-icon'/>,
         iconInfo: "0950-468-8872"
     },
     {
@@ -69,87 +50,93 @@ export const myInformation = [
 export const MyTechSkills = [
     {
         id: 1,
-        techIcon: <AiFillHtml5 className='skills-icon html'/>, 
+        techIcon: <LogosHtml5 className='skills-icon html'/>, 
         nameIcon: "HTML"
     },
     {
         id: 2,
-        techIcon: <BiLogoCss3 className='skills-icon css'/>, 
+        techIcon: <LogosCss3 className='skills-icon css'/>, 
         nameIcon: "CSS"
     },
     {
         id: 3,
-        techIcon: <BiLogoJavascript className='skills-icon javaScript'/>, 
+        techIcon: <LogosJavascript className='skills-icon javaScript'/>, 
         nameIcon: "JavaScript"
     },
     {
         id: 4,
-        techIcon: <BiLogoReact className='skills-icon react'/>, 
+        techIcon: <SkillIconsReactDark className='skills-icon react'/>, 
         nameIcon: "React"
     },
     {
         id: 5,
-        techIcon: <BiLogoGit className='skills-icon git'/>, 
+        techIcon: <DeviconGit className='skills-icon git'/>, 
         nameIcon: "Git"
     },
     {
         id: 6,
-        techIcon: <AiFillGithub className='skills-icon github'/>, 
+        techIcon: <DeviconGithub className='skills-icon github'/>, 
         nameIcon: "Github"
     },
     {
         id: 7,
-        techIcon: <HiCommandLine className='skills-icon commandline'/>, 
+        techIcon: <FlatColorIconsCommandLine className='skills-icon commandline'/>, 
         nameIcon: "Commandline"
     },
     {
         id: 8,
-        techIcon: <TbBrandVscode className='skills-icon VSCode'/>, 
+        techIcon: <SkillIconsVscodeDark className='skills-icon VSCode'/>, 
         nameIcon: "VS Code"
     },
     {
         id: 9,
-        techIcon: <FaBootstrap className='skills-icon bootstrap'/>, 
+        techIcon: <LogosBootstrap className='skills-icon bootstrap'/>, 
         nameIcon: "Bootstrap" 
     },
     {
         id: 10,
-        techIcon: <img src={MaterialUI} alt='Material UI' className='materialUi'/>, 
+        techIcon: <LogosMaterialUi className='materialUi'/>, 
         nameIcon: "Material UI" 
     },
     {
         id: 11,
-        techIcon: <SiTypescript className='skills-icon typeScript'/>, 
+        techIcon: <VscodeIconsFileTypeTypescriptOfficial className='skills-icon typeScript'/>, 
         nameIcon: "TypeScript" 
     },
     {
         id: 12,
-        techIcon: <FaNode  className='skills-icon nodeJs'/>, 
+        techIcon: <SkillIconsNodejsDark  className='skills-icon nodeJs'/>, 
         nameIcon: "NodeJs" 
     },
     {
         id: 13,
-        techIcon: <SiExpress  className='skills-icon expressJs'/>, 
+        techIcon: <SkillIconsExpressjsLight  className='skills-icon expressJs'/>, 
         nameIcon: "ExpressJs" 
     },
     {
         id: 14,
-        techIcon: <SiMongodb className='skills-icon mongoDB'/>, 
+        techIcon: <SkillIconsMongodb className='skills-icon mongoDB'/>, 
         nameIcon: "MongoDB" 
     },
     {
         id: 15,
-        techIcon: <SiMysql className='skills-icon mySQL'/>, 
+        techIcon: <LogosMysql className='skills-icon mySQL'/>, 
         nameIcon: "MySQL" 
     },
     {
         id: 16,
-        techIcon: <FaJava className='skills-icon java'/>, 
+        techIcon: <DeviconJavaWordmark className='skills-icon java'/>, 
         nameIcon: "Java" 
     },
     {
         id: 17,
-        techIcon: <SiTailwindcss className='skills-icon tailwind'/>, 
+        techIcon: <DeviconTailwindcss className='skills-icon tailwind'/>, 
         nameIcon: "Tailwind" 
     },
+    {
+        id: 18,
+        techIcon: <IconoirNpm className='skills-icon npm'/>, 
+        nameIcon: "NPM" 
+    },
+
 ]

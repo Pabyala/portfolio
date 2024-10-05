@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './BackToTopStyle.css'
-import { BiSolidUpArrow } from "react-icons/bi";
 import { SubwayUp2 } from './Icons';
 
 export const BackToTop = () => {

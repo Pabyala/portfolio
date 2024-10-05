@@ -14,10 +14,10 @@
     margin-bottom: 1.6rem;
 }
 .img-me{
-    background-image: url(../Asset/152228904_3639387579513474_2193700901534596907_n.jpg);
+    background-image: url(../Asset/ELEOMAR\ F.\ FAJUTNAO.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: inset 0 0 0 0.4375rem rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 0.4375rem rgba(0, 0, 0, 0.438);
     justify-self: center;
     background-size: cover;
     width: 17rem;
