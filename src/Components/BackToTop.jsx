@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './BackToTopStyle.css'
 import { BiSolidUpArrow } from "react-icons/bi";
+import { SubwayUp2 } from './Icons';
 
 export const BackToTop = () => {
   const [backToTop, setBackToTop] = useState(false)
@@ -25,7 +26,7 @@ export const BackToTop = () => {
     <>
       {backToTop && (
         <div className='backToTop' onClick={scrollUp}>
-          <BiSolidUpArrow className="backToTop-icon"/>
+          <SubwayUp2 className="backToTop-icon"/>
         </div>
       )}
     </>
