@@ -40,11 +40,11 @@
     font-size: 1rem;
     margin-bottom: 0;
 }
-.tech-use{
+.tech-use {
+    display: flex;
+    flex-wrap: wrap;
     color: #1a1a1a;
-    font-weight: 500;
-    font-size: 1rem;
-    margin-bottom: .4rem;
+    margin: .2rem 0 .5rem 0;
 }
 .a-body{
     display: flex;
@@ -84,6 +84,18 @@
     padding: .6rem .7rem;
 }
 
+.tech-use div{
+    padding: 0 .5rem;
+}
+
+.tech-use > div:first-child {
+    padding-left: 0; 
+}
+
+.tech-use div span{
+    font-size: 1.3rem;
+}
+
 
 @media (min-width: 576px) and (max-width: 767px) {
    
@@ -119,6 +131,9 @@
     .tech-use {
         font-size: .9rem;
     }
+    /* .tech-use > div:nth-child(9) {
+    margin-left: 0; 
+    } */
 }
 
 @media (min-width: 1200px){
@@ -137,4 +152,7 @@
     .tech-use {
         font-size: .9rem;
     }
+    /* .tech-use > div:nth-child(9) {
+        margin-left: 0; 
+    } */
 }

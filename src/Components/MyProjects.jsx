@@ -1,28 +1,39 @@
-import React, { useState } from 'react'
-import '../Pages/ProjectStyle.css'
-import Project from './Project'
+import React, { useState } from "react";
+import "../Pages/ProjectStyle.css";
+import Project from "./Project";
+import TechUse from "./TechUse";
 
-export const MyProjects = ({ id, img, title, details, techUse, linkLive, linkCode }) => {
-    const [open, setOpen] = useState(false)
-
-    const techSplit = techUse.split(" ").slice(0, 4).join(" ");
-
+export const MyProjects = ({ id, img, title, details, techUse, linkLive, linkCode, }) => {
+    const [open, setOpen] = useState(false);
+    const techSlice = techUse.slice(0, 6);
+    console.log("Tech Slice: ", techUse.length);
     return (
-        <>
-        <div key={id} className="col-body h-100 d-flex flex-column justify-content-between">
+        <div
+            key={id}
+            className="col-body h-100 d-flex flex-column justify-content-between"
+        >
             <div className="img-body overflow-hidden">
-                <img className='project-img w-100 object-fit-cover ' src={img} alt="" />
-            </div>  
+                <img
+                    className="project-img w-100 object-fit-cover "
+                    src={img}
+                    alt=""
+                />
+            </div>
             <div>
-                <p className='project-title'>{title}</p>
+                <p className="project-title">{title}</p>
                 <p className="project-sub-title">
                     {`${details.slice(0, 70)}...`}
-                    <span onClick={() => setOpen(true)} className='cursor-pointer fw-bold text-decoration-none text-primary' style={{ cursor: 'pointer' }}>see more</span>
+                    <span
+                        onClick={() => setOpen(true)}
+                        className="cursor-pointer fw-bold text-decoration-none text-primary"
+                        style={{ cursor: "pointer" }}
+                    >
+                        see more
+                    </span>
                 </p>
                 <Project
                     show={open}
                     onHide={() => setOpen(false)}
-
                     id={id}
                     title={title}
                     details={details}
@@ -32,25 +43,38 @@ export const MyProjects = ({ id, img, title, details, techUse, linkLive, linkCod
                     img={img}
                 />
             </div>
-            <p className='tech-use'>{`${techSplit.slice(0, 30)}...`}</p>
+            <div className="d-block d-md-none">
+                <TechUse
+                    techArray={techUse}
+                    showMoreIcon={true}
+                    show={() => setOpen(true)}
+                />
+            </div>
+            <div className="d-none d-md-flex">
+                <TechUse
+                    techArray={techSlice}
+                    showMoreIcon={false}
+                    show={() => setOpen(true)}
+                />
+            </div>
             <div className="a-body">
-                <a className='a-live-demo d-inline-block outline-none py-2 bg-black text-white outline-none'
-                target="_blank"
-                rel="noreferrer"
-                href={linkLive}
+                <a
+                    className="a-live-demo d-inline-block outline-none py-2 bg-black text-white outline-none"
+                    target="_blank"
+                    rel="noreferrer"
+                    href={linkLive}
                 >
                     Live demo
                 </a>
-                <a className='a-code d-inline-block ml-1 outline-none py-2 bg-black text-white'
-                target="_blank"
-                rel="noreferrer"
-                href={linkCode}
+                <a
+                    className="a-code d-inline-block ml-1 outline-none py-2 bg-black text-white"
+                    target="_blank"
+                    rel="noreferrer"
+                    href={linkCode}
                 >
                     Code
                 </a>
             </div>
         </div>
-        
-        </>
-  )
-}
+    );
+};
