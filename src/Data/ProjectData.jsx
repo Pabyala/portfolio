@@ -4,6 +4,7 @@ import MarFShoeStoreProject from "../Asset/Min-Shoe-Store.png"
 import WeatherAppProject from '../Asset/Weather-app.jpg'
 import MovieHubProject from "../Asset/movie.png"
 import CrudOperationProject from "../Asset/Crud.png"
+import IS from "../Asset/IS.png"
 
 export const ProjectData = [
     {
@@ -67,5 +68,14 @@ export const ProjectData = [
         projectTechUse: ["HTML", "CSS", "ReactTs", "Tailwind", "NodeJS", "ExpressJS", "Responsive Design", "Redux", "MongoDB", ],
         projectLinkLive: "https://crud0peration.netlify.app",
         projectLinkCode: "https://github.com/Pabyala/crud-mern-frontend"
+    },
+    {
+        id: 7,
+        img: IS,
+        projectTitle: "Insight Share",
+        projectDetails: "Insight Share is an application where users can create posts, comment on them, and react with different reactions (fire, hands up, unlie, love).\n<strong>Current Features:</strong>\n User Authentication, Posts, Comments, Reactions, Profile Management, Followers, Following.\n<strong>Status:</strong> Work in progress.\n<strong>Code:</strong> <a href='https://github.com/Pabyala/frontend-insight-share' target='_blank' rel='noreferrer'>Frontend</a> and <a href='https://github.com/Pabyala/backend-insight-share' target='_blank' rel='noreferrer'>Backend</a>",
+        projectTechUse: ["HTML", "CSS", "ReactTs", "ReactJs", "Tailwind", "NodeJS", "ExpressJS", "Responsive Design", "Redux", "MongoDB", ],
+        projectLinkLive: "",
+        projectLinkCode: "https://github.com/Pabyala?tab=repositories"
     },
 ]

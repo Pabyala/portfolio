@@ -62,22 +62,24 @@ export const MyProjects = ({ id, img, title, details, techUse, linkLive, linkCod
                 />
             </div>
             <div className="a-body">
-                <a
-                    className="a-live-demo d-inline-block outline-none py-2 bg-black text-white outline-none"
-                    target="_blank"
-                    rel="noreferrer"
-                    href={linkLive}
-                >
-                    Live demo
-                </a>
-                <a
-                    className="a-code d-inline-block ml-1 outline-none py-2 bg-black text-white"
-                    target="_blank"
-                    rel="noreferrer"
-                    href={linkCode}
-                >
-                    Code
-                </a>
+                {id === 7 ? (
+                            <span className='a-live-demo d-inline-block py-2 bg-black text-white cursor-not-allowed '>
+                                Live demo
+                            </span>
+                        ) : (
+                            <a className='a-live-demo d-inline-block py-2 bg-black text-white'
+                            target="_blank"
+                            rel="noreferrer"
+                            href={linkLive}>
+                                Live demo
+                            </a>
+                    )}
+                    <a className='a-code d-inline-block ml-1 outline-none py-2 bg-black text-white'
+                        target="_blank"
+                        rel="noreferrer"
+                        href={linkCode}>
+                        Code
+                    </a>
             </div>
         </div>
     );
