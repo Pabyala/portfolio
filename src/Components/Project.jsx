@@ -21,18 +21,12 @@ export default function Project({ show, onHide, id, title, details, techUse, lin
                 </div>
                 <TechUse techArray={techUse} showMoreIcon={true} />
                 <div className="a-body">
-                    {id === 7 ? (
-                            <span className='a-live-demo d-inline-block py-2 bg-black text-white cursor-not-allowed '>
-                                Live demo (disabled)
-                            </span>
-                        ) : (
-                            <a className='a-live-demo d-inline-block py-2 bg-black text-white'
-                            target="_blank"
-                            rel="noreferrer"
-                            href={linkLive}>
-                                Live demo
-                            </a>
-                    )}
+                    <a className='a-live-demo d-inline-block py-2 bg-black text-white'
+                        target="_blank"
+                        rel="noreferrer"
+                        href={linkLive}>
+                            Live demo
+                    </a>
                     <a className='a-code d-inline-block ml-1 outline-none py-2 bg-black text-white'
                         target="_blank"
                         rel="noreferrer"
