@@ -73,7 +73,7 @@ export const ProjectData = [
         id: 7,
         img: IS,
         projectTitle: "Insight Share",
-        projectDetails: "Insight Share is an application where users can create posts, comment on them, and react with different reactions (fire, hands up, unlie, love).\n<strong>Current Features:</strong>\n User Authentication, Posts, Comments, Reactions, Profile Management, Followers, Following.\n<strong>Status:</strong> Work in progress.\n<strong>Code:</strong> <a href='https://github.com/Pabyala/frontend-insight-share' target='_blank' rel='noreferrer'>Frontend</a> and <a href='https://github.com/Pabyala/backend-insight-share' target='_blank' rel='noreferrer'>Backend</a>",
+        projectDetails: "Insight Share is an application where users can create posts, comment on them, and react with different reactions (fire, hands up, sad, love).\n<strong>Source code:</strong> <a href='https://github.com/Pabyala/frontend-insight-share' target='_blank' rel='noreferrer'>Frontend</a> and <a href='https://github.com/Pabyala/backend-insight-share' target='_blank' rel='noreferrer'>Backend</a>",
         projectTechUse: ["HTML", "CSS", "ReactTs", "ReactJs", "Tailwind", "NodeJS", "ExpressJS", "Responsive Design", "Redux", "MongoDB", ],
         projectLinkLive: "https://is-insight-share.vercel.app/login",
         projectLinkCode: "https://github.com/Pabyala?tab=repositories"
