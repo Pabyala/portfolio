@@ -57,7 +57,7 @@ export const ProjectData = [
                         " and it will display matching movies or TV series. You can also use the search" +
                         " function to find your favorites movie or TV series.",
         projectTechUse: ["HTML", "CSS", "ReactJs", "Bootstrap", "Material UI", "Context API", "Responsive Design"],
-        projectLinkLive: "https://m0vieshub.netlify.app",
+        projectLinkLive: "https://m0vieshub.vercel.app",
         projectLinkCode: "https://github.com/Pabyala/movies.hub"
     },
     {
